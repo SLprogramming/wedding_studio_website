@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+.label{
+    @apply block text-slate-500 text-sm mb-1;
+}
+.input{
+    @apply w-full border-slate-200 rounded-md shadow-sm;
+}
+/*card*/
+.card{
+    @apply p-3 rounded-lg shadow-sm bg-white hover:shadow-lg transition duration-500;
+}
+.card-sm{
+    @apply p-1 rounded-lg shadow-sm bg-white hover:shadow-lg transition duration-500;
+}
+/**/
+/*button*/
+.btn-primary{
+    @apply px-3 py-1 bg-sky-500 rounded-md text-white shadow-xl shadow-sky-500/20 hover:bg-sky-600 transition duration-500;
+}
+/**/
+.home-img{
+    @apply w-full h-screen;
+}
+.nav{
+    @apply bg-[#cdbfaf];
+}
+.about{
+    @apply h-screen bg-[#fcf8ee];
+}
+.services{
+    @apply h-auto bg-[#cdbfaf];
+}
+.contact{
+    @apply h-screen bg-[#EAE4DD];
+}
+.footer{
+    @apply bg-[#CEBEAF] h-auto;
+}
+
+@tailwind utilities;
+html{
+    @apply scroll-smooth transition duration-700;
+}
+body{
+    @apply bg-gray-200;
+}
